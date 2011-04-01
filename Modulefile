@@ -1,0 +1,8 @@
+name    'rocha-cern'
+version '0.1.0'
+source 'git://github.com/rochaporto/puppet-cern.git'
+author 'rocha'
+license 'Apache License, Version 2.0 (the "License")'
+summary 'Resources for managing local CERN specific services'
+description 'This module provides a set of resources for managing CERN specific services, like AFS or retrieval of X509 certificates.'
+project_page 'https://svnweb.cern.ch/trac/lcgdm'
