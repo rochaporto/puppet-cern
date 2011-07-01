@@ -11,6 +11,7 @@
 # CERN IT/GT/DMS <it-dep-gt-dms@cern.ch>
 #
 class cern::hostcert {
+  include grid-common
 
   package { 
     [ "perl-Compress-Zlib", "perl-HTML-Parser", "perl-HTML-Tagset", 
